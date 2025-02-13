@@ -168,13 +168,13 @@ section {
 .text p {
     margin: 0;
     font-size: 1.5rem;
-    color: #6f6f6f;
+    color: #515151;
 }
 
 
 
 .text span {
-    color: #b1b1b1;
+    color: #e3e3e3;
 
 }
 
@@ -182,7 +182,7 @@ section {
     font-size: 4rem;
     margin: 0;
     font-weight: 600;
-    color: #6f6f6f;
+    color: #777777;
 }
 
 .tagline {
