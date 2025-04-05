@@ -4,7 +4,7 @@ I'm Vojtěch, a 15-year-old Python developer, electronics tinkerer, and math ent
 
 🔧 I love:
 - Writing clean and creative Python code
-- Building Raspberry Pi projects (check out [raspi-fm](https://github.com/jsem-nerad/raspi-fm)
+- Building Raspberry Pi projects (check out [raspi-fm](https://github.com/jsem-nerad/raspi-fm))
 - Designing modern front-end interfaces
 - Managing Linux backends and servers
 - Visualizing mathematics and graph functions
