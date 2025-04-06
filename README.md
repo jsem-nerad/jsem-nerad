@@ -10,7 +10,7 @@ I'm Vojtěch, a 15-year-old Python developer, electronics tinkerer, and math ent
 - Visualizing mathematics and graph functions
 - Fixing and reverse-engineering electronics
 
-🎓 I’ve been programming in Python for 6 years, and I’ve placed 2nd twice in the ČVUT Robosoutěž.
+🎓 I’ve been programming in Python for 6 years, and I’ve placed 2nd twice in the [ČVUT Robosoutěž](https://robosoutez.fel.cvut.cz/).
 
 🖥️ I run my own local servers, use Linux daily, and I'm an active member of my school’s EcoTeam 🌱.
 
