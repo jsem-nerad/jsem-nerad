@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DotWave.js - Vojtěch Nerad</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/projects/projects.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="/" class="logo"><span style="color: #959595;">Vojtěch</span> Nerad</a>
+            <button class="hamburger" aria-label="Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <div class="nav-links">
+                <a href="/#">Domů</a>
+                <a href="/#contact">Kontakt</a>
+                <a href="/projects">Projekty</a>
+                <a href="/certificates">Diplomy</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="project-hero" style="background-image: url('/images/dotwave_preview.png'); background-size: contain;">
+        <div class="project-hero-content">
+            <h1>DotWave.js</h1>
+            <div class="project-tags">
+                <span class="project-tag">JavaScript</span>
+                <span class="project-tag">Animace</span>
+            </div>
+        </div>
+    </div>
+
+    <main class="container project-container">
+        <section class="project-section">
+            <div class="content-block">
+                <h3>O projektu</h3>
+                <p>DotWave.js je JavaScriptová knihovna, kterou jsem vytvořil pro své stránky. Když už jsem ji vytvářel, rozhodl jsem se
+                    ji rovnou nahrát na GitHub a alespoň trochu zdokumentovat, abych se o ni podělil s ostatními.
+                </p>
+            </div>
+
+            <h3 class="gold">Ukázka</h3>
+            <div class="content-block" style="aspect-ratio: 16/9; border: #6d6d6d 2px solid; border-radius: 20px; display: flex; overflow: hidden;">
+                <div id="demoBlack" style="width: 50%; height: 100%;"></div>
+                <div id="demoWhite" style="width: 50%; height: 100%;"></div>
+            </div>
+
+            <div class="content-block">
+                <h3>Jak to funguje</h3>
+                <p>Kód používá IIFE (zkratka pro "Immediately Invoked Function Expression"), díky čemuž nebude narušovat globální
+                    proměnné a funkce. Po inicializování DotWave knihovna vytvoří canvas element, připojí ho k vybranému kontejneru a
+                    nastaví pro něj správné rozměry. Poté vygeneruje tečky s náhodnými vlastnostmi, přidá funkci na detekci pohybu myši
+                    a změnu velikosti okna, a spustí smyčku, která tečky animuje.</p>
+            </div>
+
+            <div class="dual-content">
+                <div class="content-block">
+                    <h3>Vlastnosti teček</h3>
+                    <ul>
+                        <li>
+                            Pozice (souřadnice x, y)
+                        </li>
+                        <li>
+                            Hloubka (hodnota z, kde 0 = daleko, 1 = blízko)
+                        </li>
+                        <li>
+                            Velikost (poloměr v pixelech)
+                        </li>
+                        <li>
+                            Průhlednost (založená na hloubce)
+                        </li>
+                        <li>
+                            Rychlost (vx a vy pro pohyb)
+                        </li>
+                        <li>
+                            Znásobení rychlosti (hlubší tečky se pohybují pomaleji)
+                        </li>
+                    </ul>
+                </div>
+                <div class="content-block">
+                    <h3>Postup animace</h3>
+                    <ul>
+                        <li>Vymaže canvas
+                        </li>
+                        <li>Pro každou tečku vypočítá vzdálenost od kurzoru
+                        </li>
+                        <li>Přídá rychlost a směr podle kurzoru myši
+                        </li>
+                        <li>Přidá trochu náhodnosti
+                        </li>
+                        <li>Podle tření se tečky zpomalí
+                        </li>
+                        <li>Aktualizuje pozici tečky
+                        </li>
+                        <li>Vykreslí tečku na nové pozici
+                        </li>
+                    </ul>
+    
+                </div>
+            </div>
+            
+            
+
+
+        </section>
+
+
+        <section class="project-section resource-links-section">
+            <div class="resource-links">
+              <h2>Odkazy</h2>
+              <div class="links-container">
+                
+                <a href="https://github.com/jsem-nerad/DotWave.js" class="resource-link" target="_blank">
+                    <div class="resource-link-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" fill="currentColor">
+                            <path
+                                d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                        </svg>
+                    </div>
+                    <div class="resource-link-content">
+                        <div class="resource-link-title">Zdrojový kód</div>
+                        <div class="resource-link-description">Celý kód s dokumentací</div>
+                    </div>
+                </a>
+                
+                
+                
+                
+              </div>
+            </div>
+          </section>
+
+        <div class="back-to-projects">
+            <a href="/projects">← Zpět na projekty</a>
+        </div>
+
+        
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 Vojtěch Nerad</p>
+        </div>
+    </footer>
+
+    <script src="/scripts/project.js"></script>
+    <script src="/scripts/dotwave.js"></script>
+
+    <script>
+        const demoBlack = new DotWave({
+            container: '#demoBlack',
+            numDots: 100,
+            dotColor: '#ffdddd',
+            backgroundColor: '#000000',
+            influenceRadius: 150
+        });
+        const demoWhite = new DotWave({
+            container: '#demoWhite',
+            numDots: 100,
+            dotColor: '#000000',
+            backgroundColor: '#ffdddd',
+            influenceRadius: 150
+        });
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const timelineEvents = document.querySelectorAll('.timeline-event');
+            setTimeout(() => {
+                timelineEvents.forEach((event, index) => {
+                    setTimeout(() => {
+                        event.classList.add('animate');
+                    }, 300 * index);
+                });
+            }, 500);
+        });
+    </script>
+</body>
+
+</html>

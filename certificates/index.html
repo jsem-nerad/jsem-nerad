@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diplomy | Vojtěch Nerad</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/certificates/certificates.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="/" class="logo"><span style="color: #959595;">Vojtěch</span> Nerad</a>
+            <button class="hamburger" aria-label="Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <div class="nav-links">
+                <a href="/#">Domů</a>
+                <a href="/#contact">Kontakt</a>
+                <a href="/projects">Projekty</a>
+                <a href="/certificates">Diplomy</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <h1 class="section-title">Diplomy a ocenění</h1>
+        
+        <div class="certificates-grid">
+            <div class="certificate-card" data-category="competition">
+                <div class="certificate-image">
+                    <img src="/images/robosoutez_2024.JPG" alt="Robosoutěž 2024 2. místo">
+                    <div class="certificate-overlay">
+                        <div class="certificate-badge">2. místo</div>
+                        <button class="view-btn">Zobrazit</button>
+                    </div>
+                </div>
+                <div class="certificate-content">
+                    <h3>Robosoutěž 2024</h3>
+                    <p class="certificate-description">Celostátní soutěž v robotice pořádaná ČVUT FEL</p>
+                    <div class="certificate-links">
+                        <a href="/projects/cvut-robosoutez.html" class="certificate-link">Projekt</a>
+                        <a href="https://robosoutez.fel.cvut.cz/" class="certificate-link" target="_blank">Web soutěže</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="certificate-card" data-category="competition">
+                <div class="certificate-image">
+                    <img src="/images/robosoutez_2023.jpg" alt="Robosoutěž 2023 2. místo">
+                    <div class="certificate-overlay">
+                        <div class="certificate-badge">2. místo</div>
+                        <button class="view-btn">Zobrazit</button>
+                    </div>
+                </div>
+                <div class="certificate-content">
+                    <h3>Robosoutěž 2023</h3>
+                    <p class="certificate-description">Celostátní soutěž v robotice pořádaná ČVUT FEL</p>
+                    <div class="certificate-links">
+                        <a href="/projects/cvut-robosoutez.html" class="certificate-link">Projekt</a>
+                        <a href="https://robosoutez.fel.cvut.cz/" class="certificate-link" target="_blank">Web soutěže</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="certificate-card" data-category="academic">
+                <div class="certificate-image">
+                    <img src="/images/mo_diplom_domaci_kolo.jpg" alt="Matematická olympiáda">
+                    <div class="certificate-overlay">
+                        <div class="certificate-badge">Úspěšný řešitel</div>
+                        <button class="view-btn">Zobrazit</button>
+                    </div>
+                </div>
+                <div class="certificate-content">
+                    <h3>Matematická olympiáda</h3>
+                    <p class="certificate-description">Úspěšný řešitel školního, okresního i krajského kola</p>
+                </div>
+            </div>
+            
+            <div class="certificate-card" data-category="other">
+                <div class="certificate-image">
+                    <img src="/images/tabor_robotiky.JPG" alt="Tábor robotiky">
+                    <div class="certificate-overlay">
+                        <button class="view-btn">Zobrazit</button>
+                    </div>
+                </div>
+                <div class="certificate-content">
+                    <h3>Tábor robotiky</h3>
+                    <p class="certificate-description">Tábor robotiky na SSPŠ</p>
+                </div>
+            </div>
+            
+            <div class="certificate-card" data-category="academic">
+                <div class="certificate-image">
+                    <img src="/images/scio.JPG" alt="SCIO testování">
+                    <div class="certificate-overlay">
+                        <div class="certificate-badge">100%</div>
+                        <button class="view-btn">Zobrazit</button>
+                    </div>
+                </div>
+                <div class="certificate-content">
+                    <h3>SCIO národní testování</h3>
+                    <p class="certificate-description">Nejlepší výsledek v kraji z matematiky (plný počet bodů)</p>
+                </div>
+            </div>
+            
+            <div class="certificate-card" data-category="academic">
+                <div class="certificate-image">
+                    <img src="/images/pythagoriada.JPG" alt="Pythagoriáda">
+                    <div class="certificate-overlay">
+                        <div class="certificate-badge">Okresní kolo</div>
+                        <button class="view-btn">Zobrazit</button>
+                    </div>
+                </div>
+                <div class="certificate-content">
+                    <h3>Pythagoriáda</h3>
+                    <p class="certificate-description">Postup do okresního kola</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="modal" id="certificate-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <img id="modal-image" src="" alt="Diplom">
+            <div class="modal-info">
+                <h3 id="modal-title"></h3>
+                <p id="modal-description"></p>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Vojtěch Nerad</p>
+        </div>
+    </footer>
+    
+    <script src="/certificates/certificates.js"></script>
+    <script src="/scripts/script.js"></script>
+</body>
+</html>

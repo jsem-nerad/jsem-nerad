@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekty | Vojtěch Nerad</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="projects.css">
+</head>
+<body>
+    <nav class="navbar">
+      <div class="container">
+          <a href="/" class="logo"><span style="color: #959595;">Vojtěch</span> Nerad</a>
+          <button class="hamburger" aria-label="Menu">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+          </button>
+          <div class="nav-links">
+              <a href="/#">Domů</a>
+              <a href="/#contact">Kontakt</a>
+              <a href="/projects">Projekty</a>
+              <a href="/certificates">Diplomy</a>
+          </div>
+      </div>
+  </nav>
+
+    <main class="container">
+      <section class="projects dot-bg" id="projects">
+        <div class="container">
+          <h1 class="section-title">Moje projekty</h1>
+          
+          <div class="featured-project">
+                <a href="/projects/cvut-robosoutez.html" class="featured-card">
+                  <div class="featured-image">
+                    <img src="/images/rbstz_robot_v1_2023.jpg" alt="ČVUT Robosoutěž">
+                  </div>
+                  <div class="featured-content">
+                    <h2>Robosoutěž ČVUT</h2>
+                    <span class="project-category">Robotika</span>
+                    <p class="project-description">Stavba a programování autonomního Lego robota.</p>
+                    <div class="project-tech">
+                      <span>Python</span>
+                      <span>Programování</span>
+                      <span>Lego</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+          <div class="project-grid">
+            <a href="/projects/raspi-fm.html" class="project-card">
+              <div class="project-image">
+                <img src="/images/raspifm_logo.jpg" alt="Raspi-FM">
+              </div>
+              <div class="project-content">
+                <h2>Raspi-FM</h2>
+                <span class="project-category">Hardware</span>
+                <div class="project-tech">
+                  <span>Python</span>
+                  <span>Raspberry Pi</span>
+                  <span>Linux</span>
+                </div>
+              </div>
+            </a>
+          <a href="/projects/dotwave-js.html" id="dots" class="project-card">
+            <div class="project-content">
+              <h2>DotWave.js</h2>
+              <span class="project-category">JS knihovna</span>
+              <div class="project-tech">
+                <span>JavaScript</span>
+                <span>Animace</span>
+              </div>
+            </div>
+          </a>
+
+          
+            
+          <!--<a href="" class="project-card">
+              <div class="project-image">
+                <img src="" alt="Let s drony">
+              </div>
+              <div class="project-content">
+                <h2>Mediální tvorba</h2>
+                <span class="project-category">Foto/Video</span>
+                <div class="project-tech">
+                  <span>DaVinci Resolve</span>
+                  <span>GIMP</span>
+                  <span>Drony</span>
+                </div>
+              </div>
+            </a>-->
+            
+          </div>
+          
+          <div class="featured-project">
+            <a href="/projects/tridni-mikina.html" class="featured-card">
+              <div class="featured-image">
+                <img style="filter: brightness(0.9);" src="/images/posledni_mikina_v5.png" alt="Třídní mikina">
+              </div>
+              <div class="featured-content">
+                <h2>Třídní mikina</h2>
+                <span class="project-category">Úprava fotek</span>
+                <p class="project-description">Tvorba koláže poslední večeře na mikinu naší třídy</p>
+                <div class="project-tech">
+                  <span class="project-tag">GIMP</span>
+                  <span class="project-tag">Focení</span>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-grid">
+            <a href="/projects/ekoteam.html" class="project-card">
+              <div class="project-image">
+                <img src="/images/ekoteam-cover.jpg" alt="Ekoteam">
+              </div>
+              <div class="project-content">
+                <h2>Ekoteam</h2>
+                <span class="project-category">Ekologie</span>
+                <div class="project-tech">
+                  <span>Pořádání akcí</span>
+                  <span>Výukové programy</span>
+                </div>
+              </div>
+            </a>
+            
+
+            
+            
+            <a href="projekt-bivoj.html" class="project-card">
+              <div class="project-image">
+                <img src="/images/bivoj_screenshot (4).png" alt="Bivoj">
+              </div>
+              <div class="project-content">
+                <h2>Projekt BIVOJ</h2>
+                <span class="project-category">AI</span>
+                <div class="project-tech">
+                  <span>Python</span>
+                  <span>Discord</span>
+                  <span>LLM</span>
+                </div>
+              </div>
+            </a>
+            
+          </div>
+          
+      </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Vojtěch Nerad</p>
+        </div>
+    </footer>
+
+    <script src="/scripts/script.js"></script>
+    <script src="/scripts/dotwave.js"></script>
+
+    <script>
+      const project = new DotWave({
+            container: '#dots',
+            numDots: 150,
+            dotColor: '#ffffff',
+            backgroundColor: '#000000', // '#ffbb00',
+            influenceRadius: 100,
+            influenceStrength: 0.14
+        });
+    </script>
+</body>
+</html>

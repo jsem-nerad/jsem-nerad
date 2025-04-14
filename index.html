@@ -1,267 +1,419 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cz">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="color-scheme" content="light dark">
     <meta name="description" content="Vojtěch Nerad">
-    <meta name="keywords" content="Vojtěch Nerad, jsem nerad, jsem-nerad, ">
+    <meta name="keywords" content="Vojtěch Nerad, jsem nerad, jsem-nerad">
     <meta name="author" content="Vojtěch Nerad">
     <title>Vojtěch Nerad</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
+    
 </head>
 <body>
     <nav class="navbar">
         <div class="container">
-            <a href="/" class="logo"><span style="color: #959595;">Vojtěch</span> Nerad</a>
-            
-            <!-- Hamburger Menu -->
+            <a href="/" class="logo"><span style="color: #777777;">Vojtěch</span> Nerad</a>
             <button class="hamburger" aria-label="Menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
             </button>
-            
-            <!-- Navigation Links -->
             <div class="nav-links">
-                <a href="/#">Home</a>
-                <a href="/#contact">Contact</a>
+                <a href="/#">Domů</a>
+                <a href="/#contact">Kontakt</a>
+                <a href="/projects">Projekty</a>
+                <a href="/certificates">Diplomy</a>
             </div>
-
         </div>
     </nav>
 
-    <main class="container">
+    <main class="">
         <section class="hero">
-            <div class="text">
-                <p>nejsem <span>nerad</span>, jsem</p>
-                <h1>Vojtěch <span style="color: #ffffff;">Nerad</span></h1>
-                <p class="tagline">Python Developer & Mathematics Enthusiast</p>
-                <div class="hero-icons">
-                    <a href="https://github.com/jsem-nerad" target="_blank" >
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 98 96">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0112.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z"/>
-                        </svg>
-                        
-                    </a>
-                    <a href="mailto:ja@jsem-nerad.cz">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                            <path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/>
-                        </svg>
-                    </a>
-
+            <div class="hero-content">
+                <h1><span style="opacity: 0.9;">Vojtěch</span> Nerad</h1>
+                <p class="tagline glow">Python Developer</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="cta-primary">Kontaktujte mě</a>
+                    <a href="#projects" class="cta-secondary">Moje projekty</a>
                 </div>
             </div>
             <div class="round-image">
-                <img src="/images/vojta.jpg" alt="">
+                <img src="/images/vojtoslav.png" alt="">
             </div>
-            
+        
         </section>
-
-        <section class="about-me">
-            <div class="card card-content">
-                <h2>Kdo tedy jsem?</h2>
-                <p>Jsem student, který se rád zabývá programováním a matematikou. Je mi 15 let a již od dětství mě zajímají informační technologie.</p>
+        
+        <br>
+        <section id="about-me" class="about-me container">
+            <div class="card">
+                <div class="macos-title-bar">
+                    <div class="title-buttons">
+                        <span class="red"></span>
+                        <span class="yellow"></span>
+                        <span class="green"></span>
+                    </div>
+                    <div class="title-text">
+                        <span>Vojtěch Nerad</span>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <div class="about-grid">
+                        <div class="about-image">
+                            <div class="round-image">
+                                <img src="/images/logo.jpg" alt="Vojtěch Nerad">
+                            </div>
+                            <div class="social-badges">
+                                <a href="mailto:ja@jsemnerad.cz" class="social-badge">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/>
+                                    </svg>
+                                    <span>ja@jsemnerad.cz</span>
+                                </a>
+                                <a href="https://github.com/jsem-nerad" target="_blank" class="social-badge">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                        <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>
+                                    </svg>
+                                    <span>jsem-nerad</span>
+                                </a>
+                                <a class="social-badge">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                        <path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/>
+                                    </svg>
+                                    <span>Praha, Česká republika</span>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="about-text">
+                            <div class="about-header">
+                                <h2>O mně</h2>
+                                <div class="accent-line"></div>
+                            </div>
+                            
+                            <div class="bio">
+                                <p>Jsem 15letý student, Python developer a nadšenec do Linuxu a matematiky. Baví mě hrát florbal, jízda na kole a hra na kytaru a ukulele.</p>
+                            </div>
+                            
+                            <div class="interests">
+                                <h3>Zájmy</h3>
+                                <div class="interest-tags">
+                                    <span class="interest-tag">Python</span>
+                                    <span class="interest-tag">Matematika</span>
+                                    <span class="interest-tag">Florbal</span>
+                                    <span class="interest-tag">3D tisk</span>
+                                    <span class="interest-tag">AI</span>
+                                    <span class="interest-tag">Let s drony</span>
+                                    <span class="interest-tag">Hudba</span>
+                                </div>
+                            </div>
+                            
+                            <div class="quote">
+                                <blockquote>
+                                    "The best way to predict the future is to invent it."
+                                    <br>
+                                    <cite>— Alan Kay</cite>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
-        <section id="contact" class="contact">
-            <h2 class="section-title">Get in Touch</h2>
-            <p class="reach-out">Feel free to reach out for collaborations or just to say hello!</p>
-            
-            <div class="contact-grid">
-                <!-- Email -->
-                <a href="mailto:ja@jsem-nerad.cz" class="contact-card ">
-                    <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                        <path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/>
-                    </svg>
-                    <h3>Email</h3>
-                    <p>ja@jsem-nerad.cz</p>
+        
+        <br>
+        <section id="experience" class="experience dot-bg">
+            <div class="container">
+                <h1 class="section-title">Moje zkušenosti</h1>
+                <div class="experience-grid">
+                    <div class="experience-card">
+                        <div class="macos-title-bar">
+                            <div class="title-buttons">
+                                <span class="red"></span>
+                                <span class="yellow"></span>
+                                <span class="green"></span>
+                            </div>
+                            <div class="title-text">
+                                <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path d="M439.8 200.5c-7.7-30.9-22.3-54.2-53.4-54.2h-40.1v47.4c0 36.8-31.2 67.8-66.8 67.8H172.7c-29.2 0-53.4 25-53.4 54.3v101.8c0 29 25.2 46 53.4 54.3 33.8 9.9 66.3 11.7 106.8 0 26.9-7.8 53.4-23.5 53.4-54.3v-40.7H226.2v-13.6h160.2c31.1 0 42.6-21.7 53.4-54.2 11.2-33.5 10.7-65.7 0-108.6zM286.2 404c11.1 0 20.1 9.1 20.1 20.3 0 11.3-9 20.4-20.1 20.4-11 0-20.1-9.2-20.1-20.4.1-11.3 9.1-20.3 20.1-20.3zM167.8 248.1h106.8c29.7 0 53.4-24.5 53.4-54.3V91.9c0-29-24.4-50.7-53.4-55.6-35.8-5.9-74.7-5.6-106.8.1-45.2 8-53.4 24.7-53.4 55.6v40.7h106.9v13.6h-147c-31.1 0-58.3 18.7-66.8 54.2-9.8 40.7-10.2 66.1 0 108.6 7.6 31.6 25.7 54.2 56.8 54.2H101v-48.8c0-35.3 30.5-66.4 66.8-66.4zm-6.7-142.6c-11.1 0-20.1-9.1-20.1-20.3.1-11.3 9-20.4 20.1-20.4 11 0 20.1 9.2 20.1 20.4s-9 20.3-20.1 20.3z"/>
+                                </svg>
+                                <span>Python</span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <ul class="experience-list">
+                                <li><span class="badge">Web scraping</span></li>
+                                <li>Algoritmy</li>
+                                <li><span class="badge">Objektové programování</span></li>
+                                <li>Práce s AI</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="experience-card">
+                        <div class="macos-title-bar">
+                            <div class="title-buttons">
+                                <span class="red"></span>
+                                <span class="yellow"></span>
+                                <span class="green"></span>
+                            </div>
+                            <div class="title-text">
+                                <svg class="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 10.2308L3.08495 7.02346M12 10.2308L20.9178 7.03406M12 10.2308V20.8791M5.13498 18.5771L10.935 20.6242C11.3297 20.7635 11.527 20.8331 11.7294 20.8608C11.909 20.8853 12.091 20.8853 12.2706 20.8608C12.473 20.8331 12.6703 20.7635 13.065 20.6242L18.865 18.5771C19.6337 18.3058 20.018 18.1702 20.3018 17.9269C20.5523 17.7121 20.7459 17.4386 20.8651 17.1308C21 16.7823 21 16.3747 21 15.5595V8.44058C21 7.62542 21 7.21785 20.8651 6.86935C20.7459 6.56155 20.5523 6.28804 20.3018 6.0732C20.018 5.82996 19.6337 5.69431 18.865 5.42301L13.065 3.37595C12.6703 3.23665 12.473 3.167 12.2706 3.13936C12.091 3.11484 11.909 3.11484 11.7294 3.13936C11.527 3.167 11.3297 3.23665 10.935 3.37595L5.13498 5.42301C4.36629 5.69431 3.98195 5.82996 3.69824 6.0732C3.44766 6.28804 3.25414 6.56155 3.13495 6.86935C3 7.21785 3 7.62542 3 8.44058V15.5595C3 16.3747 3 16.7823 3.13495 17.1308C3.25414 17.4386 3.44766 17.7121 3.69824 17.9269C3.98195 18.1702 4.36629 18.3058 5.13498 18.5771Z" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                                  </svg>
+                                <span>3D tisk</span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <ul class="experience-list">
+                                <li>Práce v PrusaSliceru</li>
+                                <li>Modelování - <span class="badge">Fusion 360</span></li>
+                                <li>Publikace výtisků na Printables</li>
+                                <li>Ender 3 V2 Neo</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="experience-card">
+                        <div class="macos-title-bar">
+                            <div class="title-buttons">
+                                <span class="red"></span>
+                                <span class="yellow"></span>
+                                <span class="green"></span>
+                            </div>
+                            <div class="title-text">
+                                <svg class="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18.3944 7C18.9574 7 19.2389 7 19.4711 7.05628C20.199 7.2327 20.7673 7.801 20.9437 8.52887C21 8.76107 21 9.04256 21 9.60555L21 16C21 17.8856 21 18.8284 20.4142 19.4142C19.8284 20 18.8856 20 17 20L16 20L8 20L7 20C5.11438 20 4.17157 20 3.58579 19.4142C3 18.8284 3 17.8856 3 16L3 9.60555C3 9.04256 3 8.76107 3.05628 8.52887C3.23271 7.801 3.80101 7.2327 4.52887 7.05628C4.76107 7 5.04257 7 5.60555 7V7C5.92098 7 6.07869 7 6.2261 6.9779C6.68235 6.90952 7.10092 6.6855 7.4109 6.34382C7.51105 6.23342 7.59853 6.1022 7.7735 5.83975L8 5.5C8.39637 4.90544 8.59456 4.60816 8.86549 4.40367C9.03094 4.27879 9.2148 4.18039 9.41048 4.112C9.73092 4 10.0882 4 10.8028 4L13.1972 4C13.9118 4 14.2691 4 14.5895 4.112C14.7852 4.18039 14.9691 4.27879 15.1345 4.40367C15.4054 4.60816 15.6036 4.90544 16 5.5L16.2265 5.83975C16.4015 6.1022 16.4889 6.23342 16.5891 6.34382C16.8991 6.6855 17.3177 6.90952 17.7739 6.9779C17.9213 7 18.079 7 18.3944 7V7Z" fill="none" stroke-linejoin="round"/>
+                                    <path d="M15 13C15 14.6569 13.6569 16 12 16C10.3431 16 9 14.6569 9 13C9 11.3431 10.3431 10 12 10C13.6569 10 15 11.3431 15 13Z" fill="none"/>
+                                  </svg>
+                                  
+                                <span>Mediální tvorba</span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <ul class="experience-list">
+                                <li>Střih videa - DaVinci</li>
+                                <li>Úprava fotek - <span class="badge">GIMP</span></li>
+                                <li>Hudba - FL Studio</li>
+                                <li>Natáčení s drony</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="experience-card">
+                        <div class="macos-title-bar">
+                            <div class="title-buttons">
+                                <span class="red"></span>
+                                <span class="yellow"></span>
+                                <span class="green"></span>
+                            </div>
+                            <div class="title-text" style="margin-left: 18px;">
+                                <svg class="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.1" d="M3 8C3 6.11438 3 5.17157 3.58579 4.58579C4.17157 4 5.11438 4 7 4H12H17C18.8856 4 19.8284 4 20.4142 4.58579C21 5.17157 21 6.11438 21 8V12V16C21 17.8856 21 18.8284 20.4142 19.4142C19.8284 20 18.8856 20 17 20H12H7C5.11438 20 4.17157 20 3.58579 19.4142C3 18.8284 3 17.8856 3 16V12V8Z" fill="#555"/>
+                                    <path d="M13 15H16" stroke-linecap="round"/>
+                                    <path d="M8 15L10.5 12.5V12.5C10.7761 12.2239 10.7761 11.7761 10.5 11.5V11.5L8 9" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M3 8C3 6.11438 3 5.17157 3.58579 4.58579C4.17157 4 5.11438 4 7 4H12H17C18.8856 4 19.8284 4 20.4142 4.58579C21 5.17157 21 6.11438 21 8V12V16C21 17.8856 21 18.8284 20.4142 19.4142C19.8284 20 18.8856 20 17 20H12H7C5.11438 20 4.17157 20 3.58579 19.4142C3 18.8284 3 17.8856 3 16V12V8Z" fill="none" stroke-linejoin="round"/>
+                                  </svg>
+                                <span>Systémová administrace</span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <ul class="experience-list">
+                                <li>Zabezpečování serverů</li>
+                                <li><span class="badge">Penetrační testování</span></li>
+                                <li>Vývoj Linux aplikací</li>
+                                <li>Bash & Python skripty</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="experience-card">
+                        <div class="macos-title-bar">
+                            <div class="title-buttons">
+                                <span class="red"></span>
+                                <span class="yellow"></span>
+                                <span class="green"></span>
+                            </div>
+                            <div class="title-text">
+                                <svg class="icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="m1.75 11 6.25 3.25 6.25-3.25m-12.5-3 6.25 3.25 6.25-3.25m-6.25-6.25-6.25 3.25 6.25 3.25 6.25-3.25z" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                                  </svg>
+                                  
+                                <span>Web development</span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <ul class="experience-list">
+                                <li>UI návrhy - <span class="badge">Figma</span></li>
+                                <li>HTML/CSS/JS</li>
+                                <li><span class="badge">Flask + Jinja 2</span></li>
+                                <li>Databáze - MySQL</li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        
+        
+        
+        <br>
+        <section class="projects dot-bg" id="projects">
+            <div class="container">
+              <h1 class="section-title">Moje projekty</h1>
+              
+              <div class="featured-project">
+                <a href="/projects/cvut-robosoutez.html" class="featured-card">
+                  <div class="featured-image">
+                    <img src="/images/rbstz_robot_v1_2023.jpg" alt="ČVUT Robosoutěž">
+                  </div>
+                  <div class="featured-content">
+                    <h2>Robosoutěž ČVUT</h2>
+                    <span class="project-category">Robotika</span>
+                    <p class="project-description">Stavba a programování autonomního Lego robota.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Programování</span>
+                        <span>Lego</span>
+                    </div>
+                  </div>
                 </a>
-    
-                <!-- GitHub -->
-                <a href="https://github.com/jsem-nerad" target="_blank" class="contact-card ">
-                    <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
-                        <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>
-                    </svg>
+              </div>
+              
+              <div class="project-grid">
+                <a href="/projects/tridni-mikina.html" class="project-card">
+                    <div class="project-image">
+                      <img src="/images/posledni_mikina_v5.png" alt="Raspi-FM">
+                    </div>
+                    <div class="project-content">
+                      <h2>Třídní mikina</h2>
+                      <span class="project-category">Úprava fotek</span>
+                      <div class="project-tech">
+                        <span>GIMP</span>
+                        <span>Focení</span>
+                      </div>
+                    </div>
+                  </a>
+                <a href="/projects/dotwave-js.html" id="dots" class="project-card">
+                  <div class="project-content">
+                    <h2>DotWave.js</h2>
+                    <span class="project-category">JS knihovna</span>
+                    <div class="project-tech">
+                      <span>JavaScript</span>
+                      <span>Animace</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <br>
+              <div class="cta-buttons centered">
+                <a href="projects" class="cta-primary">Zobrazit všechny projekty</a>
+              </div>
+            </div>
+          </section>
+          
+          
+          
+          <section id="contact" class="contact-section dot-bg">
+            <div class="contact-container">
+              <h2 class="section-title">Kontaktujte mě</h2>
+              
+              <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24">
+                          <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                        </svg>
+                      </div>
+                  <h3>Email</h3>
+                  <p class="contact-text">ja@jsem-nerad.cz</p>
+                </div>
+                
+                <a href="https://github.com/jsem-nerad" target="_blank" class="github-link">
+                  <div class="contact-card">
+                    <div class="contact-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                            <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>
+                        </svg>
+                    </div>
                     <h3>GitHub</h3>
-                    <p>jsem-nerad</p>
+                    <p class="contact-text">jsem-nerad</p>
+                  </div>
                 </a>
-    
-                <!-- Location -->
-                <div class="contact-card ">
-                    <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                
+                <div class="contact-card">
+                  <div class="contact-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                         <path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 256c-35.3 0-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64s-28.7 64-64 64z"/>
                     </svg>
-                    <h3>Location</h3>
-                    <p>Prague, Czech Republic</p>
+                  </div>
+                  <h3>Lokace</h3>
+                  <p class="contact-text">Praha, Česká republika</p>
                 </div>
-    
-                <!-- Printables -->
-                <a href="https://www.printables.com/@jsemnerad" target="_blank" class="contact-card ">
-                    <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.344 35">
-                        <path d="m0 35 12.172-7L0 21ZM12.172 0 0 7l12.172 7v14l12.172-7V7Z"/>
-                    </svg>
-                    <h3>Printables</h3>
-                    <p>jsem-nerad</p>
-                </a>
+              </div>
+              
+              <div class="availability-info">
+                <p>Aktuálně jsem <span class="status available">otevřený</span> novým projektům</p>
+                <p class="response-time">Obvykle odpovídám do 24 hodin</p>
+              </div>
             </div>
-        </section>
+          </section>
     </main>
 
     <footer class="footer">
         <div class="container">
-            <p>© 2025 Vojtěch Nerad. All rights reserved.</p>
+            <p>© 2025 Vojtěch Nerad</p>
         </div>
     </footer>
 
     <script>
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach((entry) => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('show');
-                }
-                
+        const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+        const savedTheme = localStorage.getItem('theme');
+
+        document.documentElement.setAttribute('data-theme', 'dark');
+        
+
+    </script>
+
+
+    <script src="/scripts/script.js"></script>
+    <script src="/scripts/dotwave.js"></script>
+
+    <script>
+        function getCurrentColorScheme() {
+            return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+
+        console.log(getCurrentColorScheme());
+
+        if (getCurrentColorScheme() === 'dark') {
+            const hero = new DotWave({
+                container: '.hero',
+                numDots: 200,
+                dotColor: '#aaaaaa',
+                backgroundColor: '#060606',
+                influenceRadius: 250,
+                influenceStrength: 0.18
             });
+        } else {
+            const hero = new DotWave({
+                container: '.hero',
+                numDots: 200,
+                dotColor: '#060606',
+                backgroundColor: '#c9c9c9',
+                influenceRadius: 250,
+                influenceStrength: 0.18
+            });
+        }
+        const project = new DotWave({
+            container: '#dots',
+            numDots: 150,
+            dotColor: '#ffffff',
+            backgroundColor: '#000000', // '#ffbb00',
+            influenceRadius: 100,
+            influenceStrength: 0.14
         });
-
-        const hiddenElements = document.querySelectorAll('.hidden');
-        hiddenElements.forEach((el) => observer.observe(el));
-
-
-        document.addEventListener('DOMContentLoaded', function() {
-        const multiImages = document.querySelectorAll('.multi-image img');
         
-        multiImages.forEach((img, index) => {
-            img.addEventListener('click', () => {
-                const popup = document.createElement('div');
-                popup.className = 'popup-image';
-                popup.innerHTML = `
-                    <span class="close">&times;</span>
-                    <img src="${img.src}" alt="${img.alt}">
-                    <div class="prev">❮</div>
-                    <div class="next">❯</div>
-                `;
-                
-                document.body.appendChild(popup);
-                
-                let currentIndex = index;
-                const images = Array.from(multiImages);
-                
-                const closeBtn = popup.querySelector('.close');
-                const prevBtn = popup.querySelector('.prev');
-                const nextBtn = popup.querySelector('.next');
-                const popupImg = popup.querySelector('img');
-                
-                closeBtn.onclick = () => popup.remove();
-                
-                prevBtn.onclick = () => {
-                    currentIndex = (currentIndex - 1 + images.length) % images.length;
-                    popupImg.src = images[currentIndex].src;
-                    popupImg.alt = images[currentIndex].alt;
-                };
-                
-                nextBtn.onclick = () => {
-                    currentIndex = (currentIndex + 1) % images.length;
-                    popupImg.src = images[currentIndex].src;
-                    popupImg.alt = images[currentIndex].alt;
-                };
-            });
-        });
-    });
-
-
-        document.addEventListener('DOMContentLoaded', function() {
-        const galleries = document.querySelectorAll('.gallery');
-        
-        galleries.forEach(gallery => {
-            const overlay = gallery.querySelector('.gallery-overlay');
-            const images = gallery.querySelectorAll('img');
-            
-            overlay.addEventListener('click', () => {
-                const popup = document.createElement('div');
-                popup.className = 'popup-image';
-                popup.innerHTML = `
-                    <span>&times;</span>
-                    <img src="${images[0].src}" alt="${images[0].alt}">
-                    <div class="prev">❮</div>
-                    <div class="next">❯</div>
-                `;
-                
-                document.body.appendChild(popup);
-                popup.style.display = 'block';
-                
-                let currentIndex = 0;
-                const closeBtn = popup.querySelector('span');
-                const prevBtn = popup.querySelector('.prev');
-                const nextBtn = popup.querySelector('.next');
-                const popupImg = popup.querySelector('img');
-                
-                closeBtn.onclick = () => {
-                    popup.remove();
-                };
-                
-                prevBtn.onclick = () => {
-                    currentIndex = (currentIndex - 1 + images.length) % images.length;
-                    popupImg.src = images[currentIndex].src;
-                    popupImg.alt = images[currentIndex].alt;
-                };
-                
-                nextBtn.onclick = () => {
-                    currentIndex = (currentIndex + 1) % images.length;
-                    popupImg.src = images[currentIndex].src;
-                    popupImg.alt = images[currentIndex].alt;
-                };
-            });
-        });
-    });
-
-
-
-
-
-        document.addEventListener('DOMContentLoaded', function() {
-            const hamburger = document.querySelector('.hamburger');
-            const navLinks = document.querySelector('.nav-links');
-            const navItems = document.querySelectorAll('.nav-links a'); // Select all nav links
-
-            hamburger.addEventListener('click', () => {
-                hamburger.classList.toggle('active');
-                navLinks.classList.toggle('active');
-            });
-        
-            // Close menu when clicking outside
-            document.addEventListener('click', (event) => {
-                if (!event.target.closest('.navbar')) {
-                    hamburger.classList.remove('active');
-                    navLinks.classList.remove('active');
-                }
-            });
-    
-            // Close menu on window resize
-            window.addEventListener('resize', () => {
-                if (window.innerWidth > 768) {
-                    hamburger.classList.remove('active');
-                    navLinks.classList.remove('active');
-
-                }
-            });
-    
-            // Close menu when a nav link is clicked (works for #fragment links too)
-            navItems.forEach(link => {
-                link.addEventListener('click', () => {
-                    setTimeout(() => {
-                        hamburger.classList.remove('active');
-                        navLinks.classList.remove('active');
-                    }, 0); // Delay ensures the link navigation happens before closing
-                });
-            });
-        });
-
-        
-
-
-        
-
     </script>
 </body>
 </html>
