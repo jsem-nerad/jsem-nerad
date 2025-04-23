@@ -14,7 +14,7 @@ I'm Vojtěch, a 15-year-old Python developer, Linux nerd, electronics tinkerer, 
 
 🖥️ I run my own local servers, use Linux daily, and I'm a cofounder of my school’s EcoTeam 🌱.
 
-📫 You can find more on [my website](https://www.jsem-nerad.cz/) or shoot me an email!
+📫 You can find more on [my website](https://www.jsem-nerad.cz/) or shoot me an email on `ja@jsem-nerad.cz`!
 
 ![Visitors](https://komarev.com/ghpvc/?username=jsem-nerad)
 
