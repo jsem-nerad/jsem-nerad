@@ -62,18 +62,18 @@
             <div class="dual-content">
                 <div class="content-block">
                     <h3>Výběr LLM</h3>
-                    <p>Potřeboval jsem nějakého chatbota, ale nechtělo se mi utrácet peníze za API, a nejchytřejší LLM, který dokáže spustit můj domácí server je pouze 13B model a já jsem chtěl něco chytřejšího. Proto jsem se rozhodl jít cestou web scrapingu s Python knihovnou Selenium. Napadlo mě použít DuckAI od firmy DuckDuckGO, protože jejich stránky nestřeží ani CAPTCHA nebo další antiscrapingové mechanismy. Mají na výběr z několika modelů, z nichž jeden je Llama 3.3 70B, který jsem se rozhodl použít.
+                    <p>Potřeboval jsem nějakého chatbota, ale nechtělo se mi utrácet peníze za API. Nejchytřejší LLM, který dokáže spustit můj domácí server je pouze 13B model a já jsem chtěl alespoň trochu chyřejší model. Proto jsem se rozhodl jít cestou web scrapingu s Python knihovnou Selenium. Napadlo mě použít DuckAI od firmy DuckDuckGO, protože jejich stránky nestřeží ani reCAPTCHA nebo další antiscrapingové mechanismy. Mají na výběr z několika modelů, z nichž jeden je Llama 3.3 70B, který jsem se rozhodl použít.
                     </p>
                 </div>
                 <div class="content-block">
                     <h3>Tvorba knihovny</h3>
-                    <p>Rovnou jsem si z toho udělal svoji Python knihovnu pro snadné univerzální použití do budoucna. Moje knihovna nyní fungovala podobně jako normální průmyslová API, takže jsem byl schopný například nastavit vlastní system prompt nebo třeba dostávat odpovědi ve formátu XML nebo JSON.
+                    <p>Rovnou jsem si z toho udělal svoji Python knihovnu pro snadné univerzální použití do budoucna. Moje knihovna nyní fungovala podobně jako ostatní používané chatbot API, takže jsem byl schopný například nastavit vlastní system prompt nebo třeba dostávat odpovědi ve formátu XML nebo JSON.
                     </p>
                 </div>
             </div>
             <div class="summary-card" style="font-size: 1.2rem;">
                 <p>
-                    Knihovnu nechci nahrávat na GitHub nebo jinak zveřejňovat z důvodů podmínek používání DuckAI, které zakazují automaticky trénovat jinou umělou inteligenci na datech z umělé inteligence na jejich stránkách. To já sice nedělám, ale kód by k tomu mohl být zneužit.
+                    Knihovnu nechci nahrávat na GitHub nebo jinak zveřejňovat z důvodů podmínek používání DuckAI, které zakazují automaticky trénovat jinou umělou inteligenci na datech z umělé inteligence na jejich stránkách. 
                     </p>
             </div>
 
@@ -156,7 +156,6 @@
     </footer>
 
     <script src="/scripts/project.js"></script>
-    <script src="/scripts/imageComparison.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
           initImageComparison();

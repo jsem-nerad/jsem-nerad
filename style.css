@@ -245,7 +245,15 @@ section {
   background-image: radial-gradient(circle, rgba(255, 255, 255, 0.45) 1px, transparent 1px);
   background-size: 50px 50px;
   z-index: 0;
-  opacity: 0.5;
+  opacity: 0.8;
+}
+
+.projects-body.dot-bg::before,
+.certificates-body.dot-bg::before {
+  position: fixed;
+  width: 100%;
+  min-height: 100%;
+  z-index: -1;
 }
 
 .contact-container {

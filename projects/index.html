@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projekty | Vojtěch Nerad</title>
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="projects.css">
 </head>
-<body>
+<body class="projects-body dot-bg">
     <nav class="navbar">
       <div class="container">
           <a href="/" class="logo"><span style="color: #959595;">Vojtěch</span> Nerad</a>
@@ -62,34 +62,16 @@
                 </div>
               </div>
             </a>
-          <a href="/projects/dotwave-js.html" id="dots" class="project-card">
-            <div class="project-content">
-              <h2>DotWave.js</h2>
-              <span class="project-category">JS knihovna</span>
-              <div class="project-tech">
-                <span>JavaScript</span>
-                <span>Animace</span>
-              </div>
-            </div>
-          </a>
-
-          
-            
-          <!--<a href="" class="project-card">
-              <div class="project-image">
-                <img src="" alt="Let s drony">
-              </div>
+            <a href="/projects/dotwave-js.html" id="dots" class="project-card">
               <div class="project-content">
-                <h2>Mediální tvorba</h2>
-                <span class="project-category">Foto/Video</span>
+                <h2>DotWave.js</h2>
+                <span class="project-category">JS knihovna</span>
                 <div class="project-tech">
-                  <span>DaVinci Resolve</span>
-                  <span>GIMP</span>
-                  <span>Drony</span>
+                  <span>JavaScript</span>
+                  <span>Animace</span>
                 </div>
               </div>
-            </a>-->
-            
+            </a>
           </div>
           
           <div class="featured-project">
@@ -109,7 +91,7 @@
             </a>
           </div>
           <div class="project-grid">
-            <a href="/projects/ekoteam.html" class="project-card">
+            <!-- <a href="/projects/ekoteam.html" class="project-card">
               <div class="project-image">
                 <img src="/images/ekoteam-cover.jpg" alt="Ekoteam">
               </div>
@@ -121,12 +103,12 @@
                   <span>Výukové programy</span>
                 </div>
               </div>
-            </a>
+            </a> -->
             
 
             
             
-            <a href="projekt-bivoj.html" class="project-card">
+            <a href="projekt-bivoj.html" class="project-card" style="width: 50%;">
               <div class="project-image">
                 <img src="/images/bivoj_screenshot (4).png" alt="Bivoj">
               </div>
@@ -153,7 +135,7 @@
     </footer>
 
     <script src="/scripts/script.js"></script>
-    <script src="/scripts/dotwave.js"></script>
+    <script src="https://dotwave.jsem-nerad.cz/src/dotwave.min.js"></script>
 
     <script>
       const project = new DotWave({
