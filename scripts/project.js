@@ -10,6 +10,8 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Handle mobile navigation
     setupMobileNav();
+        
+    addCopyright();
 });
 
 // Create and handle image modal functionality
@@ -131,4 +133,11 @@ function setupMobileNav() {
             navLinks.classList.toggle('active');
         });
     }
+}
+
+
+function addCopyright() {
+    const year = new Date().getFullYear();
+    const copyrightText = `© ${year} Vojtěch Nerad. Všechna práva vyhrazena.`;
+    document.querySelector('.copyright').textContent = copyrightText;
 }

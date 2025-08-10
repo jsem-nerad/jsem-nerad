@@ -125,6 +125,13 @@ document.addEventListener('DOMContentLoaded', function() {
     function isMobileView() {
         return window.innerWidth < 1024;
     }
+
+    function addCopyright() {
+        const year = new Date().getFullYear();
+        const copyrightText = `© ${year} Vojtěch Nerad. Všechna práva vyhrazena.`;
+        document.querySelector('.copyright').textContent = copyrightText;
+    }
+    addCopyright();
     
     function setupCards() {
         // If on desktop (>1024px), use absolute positioning with draggable cards
@@ -220,10 +227,18 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         }
     }
+
+    
     
     // Initial setup
-    setupCards();
+    try {
+        setupCards();
+        // Update on window resize
+        window.addEventListener("resize", setupCards);
+    } catch (error) {
+        console.log("No cards to set up");
+    }
     
-    // Update on window resize
-    window.addEventListener("resize", setupCards);
+    
     });
+
