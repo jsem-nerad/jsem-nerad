@@ -2,7 +2,7 @@
 
 I'm Vojtěch, a 15-year-old Python developer, Linux nerd, electronics tinkerer, and math enthusiast from the Czech Republic.
 
-🏫 I am a student on [SSPŠ](https://www.ssps.cz/) 📚
+🏫 I am a student at [SSPŠ](https://www.ssps.cz/) 📚
 
 🔧 I love:
 - Writing clean and useful Python code
