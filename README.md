@@ -2,6 +2,8 @@
 
 I'm Vojtěch, a 15-year-old Python developer, Linux nerd, electronics tinkerer, and math enthusiast from the Czech Republic.
 
+🏫 I am a student on [SSPŠ](https://www.ssps.cz/) 📚
+
 🔧 I love:
 - Writing clean and useful Python code
 - Designing modern front-end interfaces
@@ -12,7 +14,7 @@ I'm Vojtěch, a 15-year-old Python developer, Linux nerd, electronics tinkerer, 
 
 🎓 I’ve been programming in Python for 6 years, and I’ve placed 2nd twice in the [ČVUT Robosoutěž](https://robosoutez.fel.cvut.cz/).
 
-🖥️ I run my own local servers, use Linux daily, and I'm a cofounder of my school’s EcoTeam 🌱.
+🖥️ I run my own local servers and use Linux daily.
 
 📫 You can find more on [my website](https://www.jsem-nerad.cz/) or shoot me an email on `ja@jsem-nerad.cz`!
 
